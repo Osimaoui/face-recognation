@@ -31,7 +31,7 @@ const Register = ({onRouteChange, loadUser}) => {
     const onSubmitRegister = (e) =>{
         e.preventDefault();
         if (validate(signinEmail)){
-            fetch(' https://thawing-oasis-64648.herokuapp.com/register', {
+            fetch('https://thawing-oasis-64648.herokuapp.com/register', {
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({

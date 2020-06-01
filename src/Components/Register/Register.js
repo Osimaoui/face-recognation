@@ -29,7 +29,8 @@ const Register = ({onRouteChange, loadUser}) => {
     }
 
     const onSubmitRegister = (e) =>{
-        e.preventDefault();
+        // e.preventDefault();
+        console.log("0")
         if (validate(signinEmail)){
             console.log("1")
             fetch('https://thawing-oasis-64648.herokuapp.com/register', {

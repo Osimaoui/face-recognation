@@ -19,6 +19,7 @@ const Register = ({onRouteChange, loadUser}) => {
     }
 
     const onPasswordChange = (event) =>{
+        console.log("pwc")
         setsigninPassword(event.target.value)
     }
 
